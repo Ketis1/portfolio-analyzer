@@ -1,0 +1,70 @@
+# ─── Environment / Secrets ───────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+docker/.env
+
+# ─── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+active_env/
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# ─── Node / Web (Next.js) ────────────────────────────────────────────
+node_modules/
+/apps/web/.next/
+/apps/web/out/
+.npm
+/apps/web/.pnp
+/apps/web/.pnp.js
+
+# Testing / Coverage
+coverage/
+/apps/web/cypress/videos/
+/apps/web/cypress/screenshots/
+.nyc_output
+
+# Lerna / Turbo
+.turbo/
+
+# ─── IDEs / System ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
